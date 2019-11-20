@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Zizipho Mzuzwana</title>
+</head>
+<body>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li class="nav-home">
+            <a href="#HOME">Home</a>
+          </li>
+
+          <li class="nav-about">
+            <a href="#ABOUT">About</a>
+          </li>
+
+          <li class="nav-gallery">
+            <a href="#GALLERY">Gallery</a>
+          </li>
+
+          <li class="nav-contact">
+            <a href="#CONTACT">Contact</a>
+          </li>
+        </ul>
+    </nav>
+     
+    
+     <section id="HOME" class= "home-section">
+        
+         <h1>Hey, I am Zizipho Mzuzwana</h1>
+         <p>A Web Developer</p>
+     </section>
+
+
+<!-- About -->
+    <section id="ABOUT">
+
+      <h3><strong> About</strong></h3>
+
+      <div class="About-section">
+      <img src="poshy.jpg" alt="Zizipho" style="width: 350px">
+      
+      <p>Thank you for taking the taking to check out my work. My name is Zizipho Mzuzwana and I am an aspiring Web Developer,
+         living in Cape Town. I am a very responsive person, especially to my job because I do what I love and I love what I do. 
+         <br> I am a person who is able to handle multiple tasks on a daily basis. I use a creative approach to problem solving. 
+         I am a dependable person who is great at time management. I am always energetic and eager to learn new skills. I have an experience working 
+         as part of a team and individually. I am flexible in my working hours, being able to work evenings and weekends. I am a hardworker. 
+         I am honest and trustworthy. I am always coming up with innovative ideas. I am motivated to go the gym before work to get fit and healthy. 
+         Even though I take my work seriously, I do have a good sense of humour.</p>
+         </div>
+    
+    </section>
+
+
+    <!-- Gallery -->
+     <section id="GALLERY" class="gallery-section">
+        <h1>My Journey...</h1>
+
+        <div class="responsive">
+          
+            <div class="gallery">
+              <a target="_blank" href="code4ct.jpg">
+                <img src="code4ct.jpg" alt="Cinque Terre" width="600" height="450">
+              </a>
+              <div class="desc">During grade10 in 2016, I did Delphi as part of my IT subject. 
+                As time went by I was introduced to a Code4ct programme which introduces girls to using
+                HTML,CSS,Javascript and JQuery to create websites. 
+                I have developed wide range of skills because of code4ct. 
+                Because I was one of the best code4ct alumnis I became the ambassador 
+                and also teached other young girls how to code at my school. 
+                The code4ct training environment is a dynamic and fun for the girls 
+                and it has been a pleasure to see friendships being forged between us girls and tutors.
+            </div>
+             </div>
+        
+            <div class="gallery">
+              <a target="_blank" href="hackathon.jpg">
+                <img src="hackathon.jpg" alt="Forest" width="600" height="400">
+              </a>
+            <div class="desc">I had the privilege in 2017 of attending one the biggest hackathon
+                in Town wich was WhereIsMyTransport. The hackathon was aimed at interrogating the data,
+                creating solutions and products that not only increased the use and modes of public transport in Cape Town, 
+                but also empower Capetonians to travel further and experience more of the city. So me and my team created an
+                ambitious system to provide an Uber-like experience for minibus-taxi users and make off-peak taxi
+                operations more efficient. By connecting drivers, passengers, the WhereIsMyTransport platform,
+                and a chatbot, users are able to receive real-time information about upcoming taxis,
+                and drivers are notified of demand en route which was called FindMyTaxi. We became the grand prize winner.
+            </div>
+            </div>
+        
+
+            <div class="gallery">
+              <a target="_blank" href="hackathon2.jpg">
+                <img src="hackathon2.jpg" alt="Northern Lights" width="600" height="400">
+              </a>
+              <div class="desc">Later on in 2017, I attended Santam Hackathon which was about finding solutions
+                to South Africa’s safety and security challenges. As MoreEyes team we came up with the use of biometric
+                data to recognise and possibly prevent such crimes. The idea is to utilise facial recognition,
+                heart rate and body temperature data to determine stress levels of employees and customers in the store.
+                This data can then be used to identify current or imminent threats and can help alert security personnel
+                while confirming the culprits of the crime. We then became the first prize winner.
+              </div>
+            </div>
+    
+          </div>
+         </section>
+<!-- Contact -->
+         <section id="CONTACT" class="contact-section">
+                  <h1>Contact</h1>
+                  <p>Let's get in touch...</p>
+
+                  <div class="Address">
+
+                  <img src="map.jpg" style="width:40%">
+                  
+                  <!-- <div class="social-icons">
+                  <a href="https://www.facebook.com/Zulacker.Mzuzwana.102"><img src='facebook.png' style="width:5%" /></a>
+                  <a href="https://twitter.com/me_capr"><img src='twitter.png' style="width:5%" /></a>
+                  <a href="https://www.instagram.com/zizipho_mzuzwana/"><img src='instagram.png' style="width:5%" /></a>           
+                  </div> -->
+
+
+                     <form id="Zippy">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                      <label for="email">Email Address</label>
+                      <input type="text" id="email" name="email" placeholder="@email.com" required>
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"
+                        required></textarea>
+                      <input type="submit">
+                      <div class="alert">
+                        Message sent
+                      </div>
+                      <div class="g-recaptcha" data-sitekey="6LfOi7AUAAAAAKHhol2KV9BEqX9p9ucjjukbKic1" data-callback="callback">
+                      </div>
+                      <!-- <button type="submit" name="submit" id="submit" disabled>submit</button> -->
+                     </form>
+            
+                  </div>
+              
+             </section>
+
+             <footer>Zizipho Mzuzwana | Copyright &copy; 2019</footer>
+
+
+</body>
+</html>
